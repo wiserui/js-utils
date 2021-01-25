@@ -39,5 +39,8 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
