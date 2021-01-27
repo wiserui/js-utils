@@ -1,2 +1,3 @@
 import multiRequest from './multiRequest';
-export {multiRequest};
+import runAsync from './runAsync';
+export {multiRequest, runAsync};
