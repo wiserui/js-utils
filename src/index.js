@@ -1,3 +1,3 @@
 import {curried, debounce, multiRequest, throttle} from './Function';
-
-export {curried, debounce, multiRequest, throttle};
+import {randInt} from './Number';
+export {curried, debounce, multiRequest, randInt, throttle};
