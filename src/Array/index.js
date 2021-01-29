@@ -1,2 +1,3 @@
 import shuffle from './shuffle';
-export {shuffle};
+import isArray from './isArray';
+export {isArray, shuffle};
