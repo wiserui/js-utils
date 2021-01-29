@@ -27,10 +27,6 @@ module.exports = {
       },
     ],
   },
-  devServer: {
-    contentBase: '../dist',
-    publicPath: '/',
-  },
   plugins: [
     new webpack.ProgressPlugin(),
     new CleanWebpackPlugin(),
