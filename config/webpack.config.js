@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   mode: 'development',
   output: {
-    filename: '[name].bundle.js',
+    filename: '[name].[hash].js',
     libraryTarget: 'umd',
     globalObject: 'this',
     path: path.resolve(__dirname, '..', 'dist'),
