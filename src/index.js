@@ -3,11 +3,11 @@ import {randInt} from './Number';
 import {shuffle} from './Array';
 import {Observer} from './Object';
 import {multiRequest, runAsync} from './Browser';
-import {isArray, isUndefined} from './Type';
+import {isArray, isNull, isUndefined} from './Type';
 export {
   curried,
   debounce,
-  isArray, isUndefined,
+  isArray, isNull, isUndefined,
   multiRequest,
   Observer,
   randInt, runAsync,
