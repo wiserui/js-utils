@@ -1,2 +1,3 @@
 import isArray from './isArray';
-export {isArray};
+import isUndefined from './isUndefined';
+export {isArray, isUndefined};
