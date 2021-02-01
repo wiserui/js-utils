@@ -1,7 +1,8 @@
 import {curried, debounce, throttle} from './Function';
 import {randInt} from './Number';
-import {isArray, shuffle} from './Array';
+import {shuffle} from './Array';
 import {multiRequest, runAsync} from './Browser';
+import {isArray} from './Type';
 export {
   curried,
   debounce,
