@@ -1,6 +1,7 @@
 import {curried, debounce, throttle} from './Function';
 import {randInt} from './Number';
 import {shuffle} from './Array';
+import {Observer} from './Object';
 import {multiRequest, runAsync} from './Browser';
 import {isArray, isUndefined} from './Type';
 export {
@@ -8,6 +9,7 @@ export {
   debounce,
   isArray, isUndefined,
   multiRequest,
+  Observer,
   randInt, runAsync,
   shuffle,
   throttle,
