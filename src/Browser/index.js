@@ -1,3 +1,4 @@
+import getURLParameters from './getURLParameters';
 import multiRequest from './multiRequest';
 import runAsync from './runAsync';
-export {multiRequest, runAsync};
+export {getURLParameters, multiRequest, runAsync};
