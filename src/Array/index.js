@@ -1,2 +1,3 @@
+import arrayToTree from './arrayToTree';
 import shuffle from './shuffle';
-export {shuffle};
+export {arrayToTree, shuffle};
