@@ -1,4 +1,4 @@
-import {curried, debounce, throttle} from './Function';
+import {curried, debounce, once, throttle} from './Function';
 import {randInt} from './Number';
 import {arrayToTree, flatten, shuffle} from './Array';
 import {Observer} from './Object';
@@ -13,6 +13,7 @@ export {
   isArray, isNull, isUndefined,
   multiRequest,
   Observer,
+  once,
   randInt, runAsync,
   shuffle,
   throttle,
