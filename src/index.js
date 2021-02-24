@@ -1,5 +1,6 @@
 import {curried, debounce, once, throttle} from './Function';
 import {randInt} from './Number';
+import {strToUnicode} from './String';
 import {arrayToTree, flatten, shuffle} from './Array';
 import {Observer} from './Object';
 import {getURLParameters, multiRequest, runAsync} from './Browser';
@@ -16,6 +17,6 @@ export {
   Observer,
   once,
   randInt, runAsync,
-  shuffle,
+  shuffle, strToUnicode,
   throttle,
 };
