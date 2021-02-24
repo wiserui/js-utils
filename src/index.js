@@ -4,7 +4,7 @@ import {strToUnicode} from './String';
 import {arrayToTree, flatten, shuffle} from './Array';
 import {Observer} from './Object';
 import {getURLParameters, multiRequest, runAsync} from './Browser';
-import {isArray, isNull, isString, isUndefined} from './Type';
+import {isArray, isNull, isPlainObject, isString, isUndefined} from './Type';
 
 export {
   arrayToTree,
@@ -12,7 +12,7 @@ export {
   debounce,
   flatten,
   getURLParameters,
-  isArray, isNull, isString, isUndefined,
+  isArray, isNull, isPlainObject, isString, isUndefined,
   multiRequest,
   Observer,
   once,
