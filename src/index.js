@@ -1,4 +1,4 @@
-import {curried, debounce, once, throttle} from './Function';
+import {curried, debounce, once, sleep, throttle} from './Function';
 import {randInt} from './Number';
 import {strToUnicode} from './String';
 import {arrayToTree, flatten, shuffle} from './Array';
@@ -19,6 +19,6 @@ export {
   Observer,
   once,
   randInt, runAsync,
-  shuffle, strToUnicode,
+  shuffle, sleep, strToUnicode,
   throttle,
 };
