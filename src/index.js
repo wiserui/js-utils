@@ -1,4 +1,4 @@
-import {curried, debounce, once, sleep, throttle} from './Function';
+import {compose, curried, debounce, once, sleep, throttle} from './Function';
 import {randInt} from './Number';
 import {strToUnicode} from './String';
 import {arrayToTree, flatten, shuffle} from './Array';
@@ -10,7 +10,7 @@ import {
 
 export {
   arrayToTree,
-  curried,
+  compose, curried,
   debounce,
   flatten,
   getType, getURLParameters,
