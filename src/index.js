@@ -1,5 +1,7 @@
 import {arrayToTree, chunkify, flatten, shuffle} from './Array';
-import {compose, curried, debounce, once, sleep, throttle} from './Function';
+import {
+  compose, converge, curried, debounce, once, sleep, throttle,
+} from './Function';
 import {
   getType, isArray, isNull, isPlainObject, isString, isUndefined,
 } from './Type';
@@ -10,7 +12,7 @@ import {strToUnicode} from './String';
 
 export {
   arrayToTree,
-  compose, curried, chunkify,
+  compose, converge, curried, chunkify,
   debounce,
   flatten,
   getType, getURLParameters,
